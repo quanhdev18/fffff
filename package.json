@@ -1,0 +1,46 @@
+{
+  "name": "sps_project",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rsbuild build --env-mode testing",
+    "start": "rsbuild dev",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "preview": "rsbuild preview",
+    "create:com": "node templates/component.js",
+    "create:lib": "node templates/library.js",
+    "create:service": "node templates/service.js",
+    "create:style": "node templates/style.js"
+  },
+  "license": "SPS Viet Nam.JSC",
+  "author": {
+    "name": "Cuong Nguyen",
+    "url": "https://github.com/anhcuong203"
+  },
+  "devDependencies": {
+    "@eslint/compat": "^1.1.0",
+    "@eslint/js": "^9.5.0",
+    "@rsbuild/core": "1.0.4",
+    "@rsbuild/plugin-react": "1.0.2",
+    "@types/node": "^20.14.8",
+    "@types/react": "18.3.5",
+    "@types/react-dom": "18.3.0",
+    "eslint": "^9.5.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "globals": "^15.4.0",
+    "prettier": "^3.3.2",
+    "typescript": "^5.4.2",
+    "typescript-eslint": "^7.12.0"
+  },
+  "dependencies": {
+    "@fluentui/react-components": "9.54.15",
+    "@fluentui/react-icons": "2.0.258",
+    "@griffel/react": "^1.5.25",
+    "axios": "^1.7.7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.26.2"
+  }
+}

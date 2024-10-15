@@ -1,0 +1,15 @@
+declare module 'workflow/App';
+declare module 'task/App';
+declare module 'core/language';
+declare module 'core/theme';
+declare module 'core/utility';
+declare module 'core/token';
+declare module 'core/api';
+declare module 'core/app';
+declare module 'core/layout';
+declare module 'core/components/scrollbar';
+declare module 'core/components/toolbar';
+declare module 'core/components/input';
+declare module 'core/components/textarea';
+declare module 'core/components/people-picker';
+declare module 'core/components/table';
